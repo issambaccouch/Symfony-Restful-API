@@ -1,0 +1,51 @@
+api_homepage:
+    path:     /
+    defaults: { _controller: ApiBundle:Default:index }
+
+api_getallcomp:
+    path:     /getallcomp
+    defaults: { _controller: ApiBundle:Api:getallcomp }
+
+api_getalldcomp:
+    path:     /getalldcomp
+    defaults: { _controller: ApiBundle:Api:getalldcomp}
+
+api_getonecomp:
+    path:     /getonecomp/{idCmpt}
+    defaults: { _controller: ApiBundle:Api:getonecomp }
+
+api_getonedcomp:
+    path:     /onedcomp/{id}
+    defaults: { _controller: ApiBundle:Api:getonedcomp }
+
+api_newcomp:
+    path:     /newcomp
+    defaults: { _controller: ApiBundle:Api:newcomp }
+
+api_newdcomp:
+    path:     /newdcomp
+    defaults: { _controller: ApiBundle:Api:newdcomp }
+
+api_deletecomp:
+    path:     /deletecomp/{idCmpt}
+    defaults: { _controller: ApiBundle:Api:deletecomp }
+
+api_deletedcomp:
+    path:     /deletedcomp/{id}
+    defaults: { _controller: ApiBundle:Api:deletedcomp }
+
+api_updatedcomp:
+    path:     /updatedcomp/{id}/
+    defaults: { _controller: ApiBundle:Api:updatedcomp }
+
+api_updatecomp:
+    path:     /updatecomp/{id}/
+    defaults: { _controller: ApiBundle:Api:updatecomp }
+
+api_newuser:
+    path:     /newuser/
+    defaults: { _controller: ApiBundle:Api:newuser }
+
+api_finbyuserid:
+    path:     /newuser/
+    defaults: { _controller: ApiBundle:Api:finbyuserid }

@@ -1,0 +1,43 @@
+i use prefix 'api' don't forget to use it
+
+
+afficher tt les competition:
+       /api/getallcomp
+
+
+afficher tt les demande de compition:
+    path:     /api/getalldcomp
+
+
+afficher un seule compition:
+    path:     /api/getonecomp/{idCmpt}
+
+
+afficher un seule demande de compition:
+    path:     /api/onedcomp/{id}
+
+
+ajouter un compitition:
+          /api/newcomp
+
+
+ajouter un demande de compitition:
+    path:     /api/newdcomp
+
+
+supprission une competition:
+    path:     /api/deletecomp/{idCmpt}
+
+
+supprission un demande de  competition:
+    path:     /api/deletedcomp/{id}
+
+
+stp pour le modification get the id by one competition then send the id again to the url with new parameters , this link for update demande competition:
+    path:     /api/updatedcomp/{id}/
+
+
+same as demande offer update , this link for update competition:
+    path:     /api/updatecomp/{id}/
+
+    good luck <3
